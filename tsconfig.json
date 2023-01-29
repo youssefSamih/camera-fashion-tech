@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@constants": ["./src/constants/index"],
+      "@components": ["./src/components/index"],
+      "@screens": ["./src/screens/index"],
+      "@navigation": ["./src/navigation/index"],
+      "@theme": ["./src/theme/index"],
+      "@assets/*": ["./src/assets/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
