@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRoute } from '@react-navigation/native';
-import { Image, requireNativeComponent } from 'react-native';
+import { Image } from 'react-native';
 
 import { styles } from './style';
 

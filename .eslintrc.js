@@ -9,6 +9,6 @@ module.exports = {
         usePrettierrc: true,
       },
     ],
+    'object-curly-spacing': [2, 'always'],
   },
-  'object-curly-spacing': 'always',
 };
